@@ -11,9 +11,9 @@ class TransactionResponse(BaseModel):
     id: int
     description: str
     amount: float
-    date: datetime
     category: str
     type: str
+    date: datetime
 
     class Config:
         from_attributes = True
